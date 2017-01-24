@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fi">
+
+    <head>
+        <meta charset="utf-8" />
+        
+        <style>
+           #otsikko {
+               background-color: black;
+               color: red;
+               text-align: center;
+               font-size: 150%;
+               padding: 10px;
+           }
+           #sivupalkki {
+               background-color: lightgrey;
+               float: left;
+               width: 200px;
+               padding: 5px;
+           }
+           #sisus {
+               padding: 10px;
+           }
+           #alin {
+               background-color: black;
+               color: white;
+               padding: 10px;
+               float: bottom;
+           }
+        </style>
+        
+        <title>Sivun asemointi</title>
+    </head>
+
+    <body>
+         <div id="otsikko">
+             <h1>Sivun asemointi</h1>
+             <p>eli sivun jakaminen palstoihin</p>
+         </div>
+         
+         <div id="sivupalkki">
+             <h1 style="color:blue">LINKKEJÄ</h1>
+             <ul>
+                 <li><a href="index.html">etusivulle</a></li>
+                 <li><a href="http://www.w3schools.com/html/default.asp">W3Schools-tutoriaali</a></li>
+             </ul>
+         </div>
+         
+         <div id="sisus">
+             <p>Sivun voi asemoida eli jakaa palstoihin tai osioihin usealla tavalla. Taulukot ovat yksi tavoista, mutta niiden käyttö muuhun kuin "oikean" taulukon tekoon ei ole suositeltavaa. Parempi tapa on tehdä sivun asemointi <i>div</i>-tagien avulla. Jokaiselle osiolle annetaan oma nimi. Tyylimäärittelyt ja käskyt osion paikasta sijoitetaan <i>head</i>-osaan koodissa käyttäen <i>style</i>-tagia. Koodin <i>body</i>-osassa sitten viitatan näihin määrittelyihin <i>div</i>-tagilla.</p>
+             <p>Tämä sivu on jaettu neljään osaan: <i>otsikko</i>, <i>sivupalkki</i>, <i>sisus</i> ja <i>alin</i>. Katso löydätkö sivun lähdekoodista osioiden tyylimäärittelyt ja miten niihin on viitattu <i>div</i>-tageissa.</p>
+             <p>Asemoinnin lisäksi tämän sivun sivupalkissa on esimerkki luettelosta. Se tehdään <i>ul</i>-tagin avulla (katso tarkemmin lähdekoodista). Numeroidun luettelon saa saman kaltaisesti mutta käyttämällä <i>ol</i>-tagia.</p>
+             <p>Jos haluat tietää enemmän HTML-koodaamisesta, netistä löytyy paljon materiaalia. Esimerkiksi W3Schoolsin-sivuilta löytyy lisää tägejä, joita voi kokeilla omilla sivuillaan.</p>
+         </div>
+         
+         <div id="alin">
+             <p align="center"><img src="ccbyncsa.png" alt="CC: BY NC SA" style="width:120px;height:40px"><br>
+             <i>Maria Öhman, 2015</i></p>
+         </div>
+    </body>
+
+</html>
